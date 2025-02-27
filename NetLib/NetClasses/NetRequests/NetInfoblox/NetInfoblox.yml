@@ -1,0 +1,16 @@
+url: https://URL
+ca:
+   trusted_ca: false
+   crt: ''
+   key: ''
+headers:
+   content-type: application/json
+cookies: {}
+parameters:
+   _return_as_object: '1'
+proxies:
+   http: ''
+   https: ''
+authentication:
+   user: user
+   password: password

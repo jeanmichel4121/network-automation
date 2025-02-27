@@ -1,0 +1,24 @@
+requests:
+   url: https://google.com
+   ca:
+      trusted_ca: false
+      crt: ''
+      key: ''
+   headers:
+      content-type: application/json
+   cookies: {}
+   parameters: {}
+   parsers:
+      html:
+         encoding: 'utf-8'
+         remove_blank_text: true
+      xml: 
+         encoding: 'utf-8'
+         ns_clean: true
+         remove_blank_text: true
+   proxies:
+      http: ''
+      https: ''
+   authentication:
+      user: user
+      password: password

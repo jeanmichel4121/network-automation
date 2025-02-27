@@ -1,0 +1,42 @@
+exception:
+   exception_id: ExBase-0001510
+   ignore_stack_methods:
+   - ^FctBaseNotify$
+   - ^check_parameters_unique$
+   - ^check_parameters_contains$
+   - ^function_base_notify$
+   separator: '
+
+      '
+   content:
+      values: {}
+      class_name: Not defined
+      method: Not defined
+   context:
+      environment:
+         enable: false
+         fields:
+            user: true
+            hostname: true
+            path-exec: true
+            path-lib: true
+      system:
+         enable: false
+         fields:
+            os: true
+            version: true
+            release: true
+      python:
+         enable: false
+         fields:
+            version: true
+            info: true
+            gcc: true
+            msc: true
+      network:
+         enable: false
+         fields:
+            interfaces: true
+            dns: true
+            hosts: true
+            routes: true
